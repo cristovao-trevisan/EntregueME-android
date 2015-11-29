@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">entregueME</string>
+    <string name="user_description_HARDCODED">Meu nome é Wylliedson, sou um ser humano amigável e muito divertido.</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Minhas Listas</item>
+        <item>Adicionar Lista</item>
+        <item>Opções de Pagamento</item>
+        <item>Meu Perfil</item>
+        <item>Entegrar</item>
+    </string-array>
+
+    <string-array name="notifications_array_HARDCODED">
+        <item>Maria ofereceu fazer sua compra</item>
+        <item>João ofereceu fazer sua compra</item>
+        <item>Tom, cliente passado seu está precisando de uma entrega</item>
+    </string-array>
+
+    <string-array name="lists_HARDCODED">
+        <item>Maria ofereceu fazer sua compra</item>
+        <item>João ofereceu fazer sua compra</item>
+        <item>Tom, cliente passado seu está precisando de uma entrega</item>
+        <item>Opções de Pagamento</item>
+    </string-array>
+    <string name="drawer_open">Abrir Menu</string>
+    <string name="drawer_close">Fechar Menu</string>
+</resources>
