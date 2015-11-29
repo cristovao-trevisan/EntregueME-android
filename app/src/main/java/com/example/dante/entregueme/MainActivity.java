@@ -17,6 +17,14 @@ public class MainActivity extends AppCompatActivity {
     private ListView mDrawerList;
     private ListView notificationsList;
 
+    public void clearSelection(){
+        mDrawerList.setItemChecked(mDrawerList.getSelectedItemPosition(), false);
+    }
+
+    public void closeDrawer(){
+        mDrawerLayout.closeDrawer(Gravity.RIGHT);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         drawerItem[1] = new ObjectDrawerItem(R.drawable.ic_add, navigation_drawer_items_array[1]);
         drawerItem[2] = new ObjectDrawerItem(R.drawable.ic_profile, navigation_drawer_items_array[2]);
         drawerItem[3] = new ObjectDrawerItem(R.drawable.ic_payments, navigation_drawer_items_array[3]);
-        drawerItem[4] = new ObjectDrawerItem(R.drawable.ic_deliver, navigation_drawer_items_array[3]);
+        drawerItem[4] = new ObjectDrawerItem(R.drawable.ic_deliver, navigation_drawer_items_array[4]);
 
         DrawerItemCustomAdapter adapter = new DrawerItemCustomAdapter(this, R.layout.listview_item_row, drawerItem);
         mDrawerList.setAdapter(adapter);

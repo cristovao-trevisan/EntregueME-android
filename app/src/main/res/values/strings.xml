@@ -6,7 +6,7 @@
         <item>Adicionar Lista</item>
         <item>Opções de Pagamento</item>
         <item>Meu Perfil</item>
-        <item>Entegrar</item>
+        <item>Quero Fazer Uma Entrega</item>
     </string-array>
 
     <string-array name="notifications_array_HARDCODED">
@@ -15,11 +15,29 @@
         <item>Tom, cliente passado seu está precisando de uma entrega</item>
     </string-array>
 
-    <string-array name="lists_HARDCODED">
-        <item>Maria ofereceu fazer sua compra</item>
-        <item>João ofereceu fazer sua compra</item>
-        <item>Tom, cliente passado seu está precisando de uma entrega</item>
+    <string-array name="active_lists_HARDCODED">
+        <item>Lista de comida</item>
+        <item>Lista de produtos de limpeza</item>
+        <item>Lista de higiene</item>
+    </string-array>
+
+    <string-array name="not_finished_lists_HARDCODED">
+        <item>Lista xxx</item>
+        <item>Quero mas não chegou</item>
         <item>Opções de Pagamento</item>
+    </string-array>
+
+    <string-array name="finished_lists_HARDCODED">
+        <item>Lista 7</item>
+        <item>Lista 8</item>
+        <item>Lista 9</item>
+        <item>Lista 12</item>
+    </string-array>
+
+    <string-array name="tab_names">
+        <item>Ativo</item>
+        <item>Pendente</item>
+        <item>Inativo</item>
     </string-array>
     <string name="drawer_open">Abrir Menu</string>
     <string name="drawer_close">Fechar Menu</string>

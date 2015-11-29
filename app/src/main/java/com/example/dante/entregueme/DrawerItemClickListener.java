@@ -7,7 +7,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 public class DrawerItemClickListener implements ListView.OnItemClickListener {
-    Context activity;
+    private Context activity;
     public DrawerItemClickListener(Context activity){
         this.activity = activity;
     }
@@ -22,6 +22,7 @@ public class DrawerItemClickListener implements ListView.OnItemClickListener {
                 break;
 
         }
+        ((MainActivity)activity).clearSelection();
     }
 
 }

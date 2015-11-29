@@ -3,13 +3,16 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-    <ListView
-        android:id="@+id/show_lists"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/notification_box"
-        android:choiceMode="singleChoice"
-        android:divider="#584343"
-        android:dividerHeight="2dp" />
-
+    <fragment android:name="com.example.dante.entregueme.ShowActiveListsFragment"
+        android:id="@+id/show_active_lists_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <fragment android:name="com.example.dante.entregueme.ShowNotFinishedListsFragment"
+        android:id="@+id/show_not_finished_lists_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <fragment android:name="com.example.dante.entregueme.ShowFinishedListsFragment"
+        android:id="@+id/show_finished_lists_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
