@@ -41,4 +41,7 @@
     </string-array>
     <string name="drawer_open">Abrir Menu</string>
     <string name="drawer_close">Fechar Menu</string>
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyDjQp3TkfJAwoUNtjgwvQnmCkHWvnzKma0
+    </string>
 </resources>

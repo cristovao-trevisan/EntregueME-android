@@ -1,4 +1,5 @@
-package com.example.dante.entregueme;
+package com.example.cristovao.entregueme;
+
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,8 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-
-public class ShowFinishedListsFragment  extends Fragment {
+public class ShowActiveListsFragment extends Fragment {
     private ListView listView;
     private ArrayAdapter<String> adapter;
 
@@ -29,7 +29,7 @@ public class ShowFinishedListsFragment  extends Fragment {
             }
         });
 
-        String[] lists_array =getActivity().getResources().getStringArray(R.array.finished_lists_HARDCODED);
+        String[] lists_array =getActivity().getResources().getStringArray(R.array.active_lists_HARDCODED);
         ArrayAdapter<String> notAdapter=new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1 , lists_array);
         listView.setAdapter(notAdapter);
         return view;

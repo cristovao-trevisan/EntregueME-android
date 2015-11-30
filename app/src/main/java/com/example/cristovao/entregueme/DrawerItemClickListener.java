@@ -1,4 +1,4 @@
-package com.example.dante.entregueme;
+package com.example.cristovao.entregueme;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,7 +20,10 @@ public class DrawerItemClickListener implements ListView.OnItemClickListener {
                 intent = new Intent(activity, ShowListsActivity.class);
                 activity.startActivity(intent);
                 break;
-
+            case 4:
+                intent = new Intent(activity, DeliveryActivity.class);
+                activity.startActivity(intent);
+                break;
         }
         ((MainActivity)activity).clearSelection();
     }

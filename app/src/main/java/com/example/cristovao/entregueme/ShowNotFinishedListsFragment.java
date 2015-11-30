@@ -1,4 +1,4 @@
-package com.example.dante.entregueme;
+package com.example.cristovao.entregueme;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
